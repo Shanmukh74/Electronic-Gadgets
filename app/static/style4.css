@@ -1,0 +1,91 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #003366; /* Dark blue */
+    color: white;
+    padding: 10px 20px;
+}
+
+.logo img {
+    width: 100px; /* Adjust logo size */
+}
+
+.auth-buttons a {
+    color: white;
+    text-decoration: none;
+    padding: 8px 12px;
+    margin-left: 15px;
+    background-color: #0056b3; /* Button color */
+    border-radius: 4px;
+}
+
+.auth-buttons a:hover {
+    background-color: #004494; /* Darker shade on hover */
+}
+
+.content-section {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.content-section h1 {
+    text-align: center;
+    color: #003366; /* Dark blue */
+}
+
+.content-section img {
+    width: 100%; /* Responsive image */
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.content-section h2 {
+    color: #0056b3; /* Different shade for subheadings */
+}
+
+.content-section h3 {
+    margin-top: 20px;
+}
+
+.content-section ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.button {
+    display: block;
+    width: 200px;
+    margin: 20px auto;
+    text-align: center;
+    padding: 10px;
+    background-color: #0056b3; /* Button color */
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.button:hover {
+    background-color: #004494; /* Darker shade on hover */
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #003366; /* Dark blue */
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
